@@ -1,0 +1,184 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f8f8f8;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.header__logo {
+  font-weight: bold;
+  font-size: 22px;
+  color: #003366;
+}
+.header__nav{
+  display: flex;
+  gap: 400px;
+  align-items: center;
+}
+.header__nav ul{
+  align-items: center;
+}
+.header__nav ul li{
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.header__nav .nav__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #333;
+}
+
+.nav__item--active .nav__link {
+  color: #ff6600;
+  font-weight: bold;
+}
+
+.header__btn {
+  background: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.shop {
+  padding: 30px 40px;
+}
+
+.shop__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  gap: 25px;
+}
+
+.shop__title {
+  font-size: 24px;
+}
+
+.shop__search {
+  display: flex;
+}
+
+.shop__search-input {
+  width: 386px;
+  height: 45px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: black;
+}
+
+.shop__search-btn {
+  width: 116px;
+  height: 63px;
+  padding: 8px 12px;
+  border-radius: 20px;
+  background: #0D0D5B;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.shop__history {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.shop__products {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin: 0 70px;
+  padding: 0 200px;
+}
+
+.product {
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.product__img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.product__title {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.product__price {
+  color: #ff6600;
+  font-weight: bold;
+}
+
+.product__stock {
+  font-size: 14px;
+  color: #666;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: #fff;
+  margin-top: 30px;
+  border-top: 1px solid #ddd;
+  display: flex;
+  gap: 405px;
+  align-items: center;
+}
+
+.footer__text {
+  font-size: 14px;
+  color: #555;
+}
+.coinp{
+  width: 19px;
+  height: 19px;
+}
+.buttonsarik{
+  gap: 70px;
+}
+.clock{
+  display: flex;
+  width: 40px;
+  height: 40px;
+  gap: 10px;
+  margin: 0 50px;
+}
+.narx{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin: 0 25px;
+}
+.shop__search-input::placeholder{
+  font-weight: 400;
+  font-size: 24px;
+  align-items: center;
+}
+
+
